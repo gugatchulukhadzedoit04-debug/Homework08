@@ -47,9 +47,93 @@ body {
     opacity: 0.6;
 }
 
-input {
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 27px;
+    margin-top: 43px;
+}
+
+.input-container {
     height: 54px;
     width: 100%;
+    opacity: 0.5;
     border: 1px solid rgba(0, 0, 0, 0.4);
     border-radius: 10px;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #212628;
+    padding-left: 24px;
+    padding-right: 54px;
+}
+
+.card-input {
+    width: 100%;
+    position: relative;
+}
+
+.credit-card {
+    position: absolute;
+    top: 18px;
+    right: 25px;
+}
+
+.date-input {
+    height: 54px;
+    width: 282px;
+    opacity: 0.5;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #212628;
+    padding-left: 24px;
+    padding-right: 54px;
+}
+
+.date-cvv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cvv-zip {
+    height: 54px;
+    width: 120px;
+    opacity: 0.5;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #212628;
+    padding-left: 24px;
+    padding-right: 54px;
+}
+
+.country-select-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url(../images/dropdown.svg);
+    background-position: 92%;
+    background-repeat: no-repeat;
+}
+
+.country-dropdown {
+    width: 282px;
+    height: 54px;
+    font-weight: 400;
+    opacity: 0.5;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    font-size: 18px;
+    line-height: 32px;
+    padding-left: 25px;
+    padding-right: 22px;
 }

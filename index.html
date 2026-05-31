@@ -17,25 +17,27 @@
             </div>
 
             <form action="#" class="signup-form">
-                <input type="email" placeholder="Email"/>
-                <input type="text" placeholder="Cardholder Name"/>
+                <input type="email" placeholder="Email" class="input-container"/>
+                <input type="text" placeholder="Cardholder Name" class="input-container"/>
                     <div class="card-input">
-                        <input type="text" placeholder="Card Number"/>
+                        <input type="text" placeholder="Card Number" class="input-container"/>
                         <img src="./images/credit-card.svg" class="credit-card"/>
                     </div>
-                <input type="text" placeholder="Date"/>
-                <input type="text" placeholder="CVV"/>
-                <div class="country-select-container">
-                    <label for="country"></label>
+                    <div class="date-cvv">
+                        <input type="text" placeholder="Date" class="date-input"/>
+                        <input type="text" placeholder="CVV" class="cvv-zip"/>
+                    </div>
+                <div class="country-select-container"><!-- 
+                    <label for="country"></label> -->
                     <select id="country"  class="country-dropdown">
-                        <option value="" disabled selected>Country</option>
+                        <option value="">Country</option>
                         <option value="US">United States</option>
                         <option value="CN">China</option>
                         <option value="GE">Georgia</option>
                     </select>
+                    <input type="text" placeholder="Zip" class="cvv-zip"/>
                 </div>
-                <input type="text" placeholder="Zip"/>
-                <input type="text" placeholder="Discount Code"/>
+                <input type="text" placeholder="Discount Code" class="input-container"/>
             </form>
 
             <input type="checkbox"/>
