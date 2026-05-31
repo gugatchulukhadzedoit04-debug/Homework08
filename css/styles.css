@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #F9F8F7;
+}
+
+.signup-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 552px;
+    height: 832px;
+    border-radius: 30px;
+    background-color: #fff;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+    padding: 30px 64px 10px 64px;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.premium-title, .price{
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 48px;
+    letter-spacing: 0px;
+}
+
+.price-span {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.card-header-describtion {
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 600;
+    color: #212628;
+    opacity: 0.6;
+}
+
+input {
+    height: 54px;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
